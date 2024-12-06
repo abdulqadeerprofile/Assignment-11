@@ -9,7 +9,13 @@ const Home = () => {
 
         <div className="absolute inset-0 bg-white bg-opacity-50"></div>
         <div className="relative ">
-          <Header />
+          <Header items={{
+            item1: 'Home',
+            item2: 'Apply',
+            item3: 'Jobs',
+            item4: 'Result',
+            item5: 'Courses'
+          }} />
           <Hero
             bodyText={{
               title: 'Certified Cloud Applied Generative AI Engineer (GenEng)',
